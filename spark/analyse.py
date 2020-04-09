@@ -7,8 +7,8 @@ from nltk.corpus import stopwords
 os.environ["PYSPARK_PYTHON"] = "/usr/bin/python3.6"
 os.environ["PYSPARK_DRIVER_PYTHON"] = "/usr/bin/python3.6"
 
-print(os.environ["PYSPARK_PYTHON"])
-print(os.environ["PYSPARK_DRIVER_PYTHON"])
+# print(os.environ["PYSPARK_PYTHON"])
+# print(os.environ["PYSPARK_DRIVER_PYTHON"])
 
 
 def wordclean(x):
